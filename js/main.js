@@ -14,4 +14,11 @@ function startSlide() {
     sliderImages[0].style.display = "block";
 }
 
+// Show prev
+function slideLeft() {
+    reset();
+    sliderImages[current - 1].style.display = "block";
+    current -= 1; 
+}
+
 startSlide();
