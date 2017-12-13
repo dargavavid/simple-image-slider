@@ -7,3 +7,11 @@ let current = 0;
 function reset() {
     sliderImages.forEach(el => el.style.display = "none");
 }
+
+// To initialize slider
+function startSlide() {
+    reset();
+    sliderImages[0].style.display = "block";
+}
+
+startSlide();
