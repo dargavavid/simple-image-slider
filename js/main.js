@@ -21,4 +21,11 @@ function slideLeft() {
     current -= 1; 
 }
 
+arrowLeft.addEventListener("click", function () {
+    if (current === 0) {
+        current = sliderImages.length;
+    }
+    slideLeft();
+}, false);
+
 startSlide();
