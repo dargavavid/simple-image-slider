@@ -21,6 +21,13 @@ function slideLeft() {
     current -= 1; 
 }
 
+// Show next
+function slideRight() {
+    reset();
+    sliderImages[current + 1].style.display = "block";
+    current++;
+}
+
 arrowLeft.addEventListener("click", function () {
     if (current === 0) {
         current = sliderImages.length;
