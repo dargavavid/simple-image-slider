@@ -28,3 +28,17 @@ body, #slider, .wrap, .slide-content {
 #slide3 {
     background-image: url("../images/image3.jpg");
 }
+
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slide-content span {
+    font-size: 5rem;
+    font-weight: 600;
+    color: skyblue;
+}
