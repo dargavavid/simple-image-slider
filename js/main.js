@@ -18,7 +18,7 @@ function startSlide() {
 function slideLeft() {
     reset();
     sliderImages[current - 1].style.display = "block";
-    current -= 1; 
+    current--; 
 }
 
 //Show next
